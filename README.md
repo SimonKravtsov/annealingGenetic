@@ -1,8 +1,8 @@
 # Genetic Algorithm with Simulated Annealing for TSP 
 
-##Solving Travels Man Sales Problems Using Genetic Algorithm (GA) and Simulated Annealing (SA) Algorithm Implemented in Java, Neatbeans Platform. 
+## Solving Travels Man Sales Problems Using Genetic Algorithm (GA) and Simulated Annealing (SA) Algorithm Implemented in Java, Neatbeans Platform. 
 
-Exlanation of Simulated Annealing on its own classes and code can be found at https://github.com/SimonKravtsov/simulatedAnnealing.git 
+Explanation of Simulated Annealings classes and implementation can be found at: https://github.com/SimonKravtsov/simulatedAnnealing.git 
 
 In the following algorithm it was decided to use the output of genetic algorithm of 150 generations, as an input for simulated annealing.  The results of that hasn’t shown to be much better that of simulate annealing on its own, however it has improved the stability of given results, the SA on its own would sometimes results with various ranges, GA helped to solve that problem, and by running algorithm several time it would give results around the same distance, showing the least distance the algorithm can obtain. The results can be improved if number of generation
 are increased, the run time will be increased as well as the result. 
@@ -11,11 +11,11 @@ are increased, the run time will be increased as well as the result.
 
 Reads dataset file and creates a new simulation
 
-###Population class 
+### Population class 
 
 that is used to hold and sort a population of routes in the program 
 
-###GeneticAlgorithm class 
+### GeneticAlgorithm class 
 
 is used for chromosome crossover selection and mutation, at total of 150 generation are made. 
 
