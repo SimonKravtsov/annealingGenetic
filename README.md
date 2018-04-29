@@ -19,7 +19,7 @@ that is used to hold and sort a population of routes in the program
 
 is used for chromosome crossover selection and mutation, at total of 150 generation are made. 
 
-The main principal of how the GA works is by these following process:
+#### The main principal of how the GA works is by these following process:
 
 1. Initialization of route, the route is chosen randomly by using Collections.shuffle() in the route class.
 
